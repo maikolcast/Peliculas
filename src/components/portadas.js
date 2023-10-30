@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { URL_API } from "../utils/constants";
 
-const PortadaPeliculas = ({ pelicula }) => {
+const Portadas = ({ pelicula }) => {
   const navigate = useNavigate();
 
   const handleClick = (id) => {
@@ -32,4 +32,4 @@ const PortadaPeliculas = ({ pelicula }) => {
   );
 };
 
-export default PortadaPeliculas;
+export default Portadas;

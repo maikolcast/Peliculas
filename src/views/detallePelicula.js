@@ -8,7 +8,7 @@ import {
 } from "../utils/constants";
 import axios from "axios";
 
-const OtroComponente = () => {
+const DetallePelicula = () => {
   const [pelicula, setPelicula] = useState([]);
   const [creditos, setCreditos] = useState([]); // [
   const [cargando, setCargando] = useState(false);
@@ -118,4 +118,4 @@ const OtroComponente = () => {
   );
 };
 
-export default OtroComponente;
+export default DetallePelicula;
